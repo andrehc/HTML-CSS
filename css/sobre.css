@@ -1,3 +1,38 @@
+header {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+.sacola {
+  background-image: url(../img/sacola.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  position: absolute;
+  top: 0;
+  right: 0;  
+    font-size: 14px;
+    padding-top: 6px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+.menu-opcoes {
+  position: absolute;
+  bottom: 0;/*deixei esse em 0 como no exercício*/
+  right: 0;
+  margin-bottom: 10px;
+}
+.menu-opcoes ul {
+  font-size: 15px;
+}
+.menu-opcoes a {
+  color: #003366;
+}
+.menu-opcoes ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
 body	{
   color: #333333;
   font-family: "Lucida Sans	Unicode", "Lucida	Grande", sans-serif;
@@ -39,6 +74,9 @@ figcaption {
   float: right;
   margin: 0 0 10px 10px;
 }
+
+/*   
+Talvez precise alterar algo nessa parte nos capitulos posteriores.
 #rodape	{
   color:#777;
   margin: 30px 0;
@@ -49,3 +87,54 @@ figcaption {
   vertical-align:	middle;
   width: 94px;
 }
+*/
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+footer {
+  
+  padding: 20px 0;
+  background-image: url(../img/fundo-rodape.png);
+  clear: both;
+}
+footer .container {
+  position: relative;
+}
+.social	{
+  
+  position:	absolute;
+  top: 12px;
+  right: 0;
+  
+  }
+.social a {
+  /*tamanho da imagem*/
+  height: 32px;
+  width: 32px;
+  /*substituição da imagem*/
+  display: block;
+  text-indent: -9999px;
+}
+.social li	{
+  float: right;
+  margin-left: 25px;
+}
+.social a[href*="facebook.com"]	{
+  background-image:	url(../img/facebook.png);
+}
+.social a[href*="twitter.com"]	{
+  background-image:	url(../img/twitter.png);
+}
+.social a[href*="plus.google.com"]	{
+  background-image:	url(../img/googleplus.png);
+}
+/*
+footer	{
+  padding: 20px 0;
+}
+
+footer .container	{
+position:	relative;
+}
+*/
